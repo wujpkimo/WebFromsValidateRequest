@@ -9,6 +9,7 @@
     </div>
     <div>
         <br />
+        <asp:Label runat="server" ID="label2"></asp:Label><br />
         <asp:TextBox runat="server" ID="TextBox1"></asp:TextBox>
         <asp:Button runat="server" ID="Button1" OnClick="btnSubmmit1_Click" Text="Translate No Use HTML Encode" />
         <asp:Label runat="server" ID="Label1"></asp:Label>

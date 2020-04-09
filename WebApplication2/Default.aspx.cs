@@ -11,6 +11,7 @@ namespace WebApplication2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            label2.Text = HttpUtility.HtmlEncode(@"試試在以下欄位輸入右側程式碼 <script>alert(""Boo!"")</script>");
         }
 
         protected void btnSubmmit_Click(object sender, EventArgs e)
